@@ -19,10 +19,14 @@
         @include('templates.header')
     </header>
 
+   
     <main>
+        @include('templates.comics')
         @yield('content')
     </main>
-
+    <section>
+        @include('templates.section-shop')
+   </section>
     <footer>
          @include('templates.footer')
     </footer>

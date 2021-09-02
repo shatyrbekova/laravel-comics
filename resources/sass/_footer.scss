@@ -1,0 +1,96 @@
+footer{
+
+    .section-link {
+        background-image: url("/images/footer-bg.jpg");
+        background-size: cover;
+        height: 400px;
+        position: relative;
+        overflow: hidden;
+        padding: 40px 0;
+        
+      
+        .container {
+          display: flex;
+          justify-content: space-between;
+         
+        }
+      
+        .left-side {
+          display: flex;
+      
+          li {
+            list-style: none;
+            color: white;
+            padding: 5px 24px 0 0;
+            font-family: "Roboto Condensed", sans-serif;
+            
+      
+            &:first-child {
+              font-weight: bold;
+              padding-bottom: 14px;
+            }
+      
+            &:last-child {
+              padding-bottom: 14px;
+            }
+          }
+      
+          a {
+            color: gray;
+            font-family: "Roboto Condensed", sans-serif;
+            text-decoration: none;
+          }
+        }
+      
+        .right-side {
+          img {
+            height: 500px;
+            position: absolute;
+            top: 33%;
+            transform: translate(-100%, -50%);
+          }
+        }
+      }
+      
+      .social {
+        background-color: #303030;
+        height: 80px;
+      
+        .container {
+          z-index: 1;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+         
+          line-height: 10px;
+      
+          span {
+            font-family: "Roboto Condensed", sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+          }
+      
+          .left-side {
+            a {
+              color: white;
+              padding: 15px;
+              border: 1px solid #0c7cec;;
+              box-shadow: 0 0 2px 1px #0c7cec;;
+              text-decoration: none;
+            }
+          }
+      
+          .right-side {
+            span {
+              color: white;
+            }
+      
+            img {
+              padding-left: 15px;
+              vertical-align: middle;
+            }
+          }
+        }
+      }
+    
+}
