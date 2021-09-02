@@ -7,6 +7,7 @@
     <title>Laravel Comics - @yield('title')</title>
     <link rel="stylesheet" href="{{mix('/css/app.css')}}">
     <script src="{{mix('/js/app.js')}}"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
 
@@ -14,8 +15,8 @@
     <div class="container">
     
     <header>
-        Header
-        @yield('header')
+        
+        @include('templates.header')
     </header>
 
     <main>
@@ -23,8 +24,7 @@
     </main>
 
     <footer>
-          footer
-          @yield('footer')
+         @include('templates.footer')
     </footer>
       
     
