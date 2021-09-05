@@ -3,7 +3,7 @@ footer{
     .section-link {
         background-image: url("/images/footer-bg.jpg");
         background-size: cover;
-        height: 400px;
+       
         position: relative;
         overflow: hidden;
         padding: 40px 0;
@@ -43,12 +43,12 @@ footer{
         }
       
         .right-side {
-          img {
-            height: 500px;
-            position: absolute;
-            top: 33%;
-            transform: translate(-100%, -50%);
-          }
+          // img {
+          //   height: 500px;
+          //   position: absolute;
+          //   top: 33%;
+          //   transform: translate(-100%, -50%);
+          // }
         }
       }
       

@@ -42,17 +42,14 @@ header .menu li a:hover {
 
 header .img-comic {
   height: 300px;
-}
-
-header .img-comic img {
-  max-height: 100%;
-  max-width: 100%;
+  background-position: top;
+  background-size: cover;
+  background-image: url("/images/jumbotron.jpg");
 }
 
 footer .section-link {
   background-image: url("/images/footer-bg.jpg");
   background-size: cover;
-  height: 400px;
   position: relative;
   overflow: hidden;
   padding: 40px 0;
@@ -87,13 +84,6 @@ footer .section-link .left-side a {
   color: gray;
   font-family: "Roboto Condensed", sans-serif;
   text-decoration: none;
-}
-
-footer .section-link .right-side img {
-  height: 500px;
-  position: absolute;
-  top: 33%;
-  transform: translate(-100%, -50%);
 }
 
 footer .social {
@@ -162,5 +152,60 @@ section .container .col span {
   color: white;
   font-family: "Roboto Condensed", sans-serif;
   line-height: 60px;
+}
+
+.home-page-content {
+  background-color: black;
+  color: white;
+}
+
+.home-page-content .container {
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 45px;
+}
+
+.home-page-content .container .box-comic {
+  padding: 10px;
+  height: 400px;
+  width: 200px;
+  text-transform: uppercase;
+}
+
+.home-page-content .container .box-comic img {
+  width: 100%;
+}
+
+.home-page-content .container .box-comic a {
+  text-decoration: none;
+  color: white;
+}
+
+.home-page-content .load-box {
+  background: #0c7cec;
+  border: 0;
+  color: white;
+  width: 200px;
+  font-size: 18px;
+  height: 40px;
+  font-weight: bold;
+  position: relative;
+  left: 550px;
+  margin: 30px 0 40px 0;
+}
+
+.home-page-content .current-series {
+  background: #0c7cec;
+  border: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  width: 250px;
+  height: 50px;
+  position: relative;
+  bottom: 20px;
+  left: 100px;
 }
 

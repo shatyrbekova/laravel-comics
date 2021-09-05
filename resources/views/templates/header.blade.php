@@ -30,6 +30,6 @@
          
      </nav>
      <div class="img-comic">
-          <img src="./images/jumbotron.jpg" alt="">
+          <!-- <img src="./images/jumbotron.jpg" alt=""> -->
      </div>
 </div>

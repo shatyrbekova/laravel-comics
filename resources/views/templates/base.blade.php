@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laravel Comics - @yield('title')</title>
-    <link rel="stylesheet" href="{{mix('/css/app.css')}}">
-    <script src="{{mix('/js/app.js')}}"></script>
+    <link rel="stylesheet" href="/css/app.css">
+    <script src="/js/app.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
@@ -22,7 +22,7 @@
    
     <main>
         @include('templates.comics')
-        @yield('content')
+        @yield('main')
     </main>
     <section>
         @include('templates.section-shop')

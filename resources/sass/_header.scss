@@ -38,11 +38,12 @@ header{
     }
     .img-comic{
         height:300px;
-        
-        img{
-         max-height: 100%;
-         max-width:100%;
-        }
-        // background-image: url("/images/jumbotron.jpg");
+        background-position: top;
+        background-size: cover;
+        // img{
+        //  max-height: 100%;
+        //  max-width:100%;
+        // }
+        background-image: url("/images/jumbotron.jpg");
     }
 }
